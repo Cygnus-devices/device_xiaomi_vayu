@@ -68,6 +68,13 @@ system_ext/framework/audiosphere.jar
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 
+# Audio HAL
+vendor/lib/hw/audio.primary.msmnile.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libaudioroute_ext.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+
 # Audio libraries
 vendor/lib/btaudio_offload_if.so
 vendor/lib/libacdb-fts.so
