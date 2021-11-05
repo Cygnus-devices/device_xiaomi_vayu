@@ -11,10 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vayu device
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common CygnusOS stuff.
+$(call inherit-product, vendor/cygnus/configs/common.mk)
 
-PRODUCT_NAME := lineage_vayu
+TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GAPPS := true
+
+PRODUCT_NAME := cygnus_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
